@@ -1,6 +1,6 @@
 FROM ghcr.io/codyben/csc5991-hospital-microservices/hospital-base:main
 
-ENV SERVICE_NAME room-microservice
+ENV SERVICE_NAME roommicroservice
 WORKDIR /app
 
 ADD main.py .
